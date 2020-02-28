@@ -357,7 +357,7 @@ ul.disc li {
 }
 
 @media only screen and (max-width: 800px)
-li {
+ul.disc.li {
     font-size: 1.9rem;
 }
 
