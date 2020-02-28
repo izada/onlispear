@@ -357,8 +357,8 @@ ul.disc li {
 }
 
 @media only screen and (max-width: 800px) {
-	li.bullet {
-		font-size: 1.9rem !important;
+	ul.disc li {
+		font-size: 1.9rem;
 	}
 }
 
@@ -371,8 +371,14 @@ ul.disc li::before {
 	background: #04cb87;
 	position: absolute;
 	left: -17px;
-	top: 14px;
+	top: 18px;
 	vertical-align: middle
+}
+
+@media only screen and (max-width: 800px) {
+	ul.disc li::before {
+		top: 11px;
+	}
 }
 
 dt {
