@@ -17,10 +17,10 @@ new cookieNoticeJS({
 'cookieNoticePosition': 'bottom',
 
 // Shows the "learn more button (default=false)
-'learnMoreLinkEnabled': false,
+'learnMoreLinkEnabled': true,
 
 // The href of the learn more link must be applied if (learnMoreLinkEnabled=true)
-'learnMoreLinkHref': 'https://marketingplatform.google.com/about/analytics/terms/us/',
+'learnMoreLinkHref': './privacy.html',
 
 // Text for optional learn more button
 'learnMoreLinkText':{
