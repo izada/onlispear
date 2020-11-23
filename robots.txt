@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /signature/
+Disallow: /privacy.html
 
 
 Sitemap: https://onlinespear.com/sitemap.xml
