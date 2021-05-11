@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /signature/
+Disallow: /stock/
 Disallow: /privacy.html
 
 
